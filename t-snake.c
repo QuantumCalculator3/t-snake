@@ -48,7 +48,7 @@ int main() {
       }
       switch (D){
          case 1:
-            if (HP>10){
+            if (HP>=10){
                HP-=10;
             }
             else{
@@ -64,7 +64,7 @@ int main() {
             }
             break;
          case 3:
-            if (HP<91){
+            if (HP<90){
                HP+=10;
             }
             else{
